@@ -7,7 +7,7 @@ export class Dog {
     }
     getDogHtml() {
         return `
-            <img src="${this.avatar}" alt="dog">
+            <img src="/${this.avatar}" alt="dog">
             <h2 class='dog-name'>${this.name}, ${this.age}</h2>
             <p class='dog-bio'>${this.bio}</p>
         `
