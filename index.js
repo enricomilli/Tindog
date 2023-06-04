@@ -20,10 +20,9 @@ let upNextDog = new Dog(newDog)
 render()
 
 function getNextDog(){
-        console.log(allDogsArray)
         const nextProfile = allDogsArray.shift()
         let nextObj = {}
-        dogs.forEach((obj)=>{
+        dogs.map((obj)=>{
             if (nextProfile === obj.name){
                 nextObj = obj
             }
