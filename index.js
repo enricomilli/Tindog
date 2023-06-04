@@ -55,7 +55,7 @@ noBtn.addEventListener('click', ()=>{
         setTimeout(()=> {
         nopeImg.style.display = 'none'
         profiles.innerHTML = `
-            <img src='/images/4791941-200.png' alt='People-nearby-graphic' id='error-msg-graphic'>
+            <img src="/images/4791941-200.png" alt="People-nearby-graphic" id="error-msg-graphic">
             <h1 class='error-message'>Sorry, no more profiles nearby.</h1>
         `}, 1500)
     }   
