@@ -10,7 +10,7 @@ const allDogsArray = []
 getAllDogs()
 
 function getAllDogs() {
-    dogs.forEach( dog => {
+    dogs.map( dog => {
         allDogsArray.push(dog.name)
     } )
 }
